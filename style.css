@@ -18,10 +18,8 @@ body{
 
 .under-header{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
 .header-info{
@@ -38,7 +36,7 @@ body{
 
 .head-links{
     display: flex;
-    gap: 16px;
+    gap: 24px;
     list-style: none;
 }
 
@@ -47,23 +45,27 @@ a{
     color: white;
 }
 
-.welcome-text{
-    padding: 8px;
-    width: 300px;
-}
 
-/* image{
+.welcome-text, .hero{
+    padding: 8px;
     display: flex;
     flex-wrap: wrap;
-} */
+}
 
-.image img{
+.welcome-text img{
     width: 400px;
     background: no-repeat;
 }
 
+.hero{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 800px) {
-    .image img {
+    .hero img {
       display: none;
     }
   }
